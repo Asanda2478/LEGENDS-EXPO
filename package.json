@@ -1,7 +1,7 @@
 {
   "name": "payfast-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "PayFast integration backend for Firebase/Android app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/Asanda2478/LEGENDS-EXPO#readme",
   "dependencies": {
-    "body-parse": "^0.1.0",
     "body-parser": "^2.2.0",
-    "express": "^5.1.0"
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "querystring": "^0.2.1"
   }
 }
