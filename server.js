@@ -37,8 +37,8 @@ app.post("/create-payment", (req, res) => {
   const { amount, item_name, name_first, name_last, email_address, m_payment_id } = req.body;
 
   const paymentData = {
-    merchant_id:"19412722" ,
-    merchant_key:"46ihfsjvbdhpw" ,
+    merchant_id:"10042700" ,
+    merchant_key:"l8vjs8ugxtou0" ,
     return_url: "https://yourdomain.com/success",
     cancel_url: "https://yourdomain.com/cancel",
     notify_url: "https://legends-fmzi.onrender.com/notify",
