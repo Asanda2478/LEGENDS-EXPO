@@ -7,13 +7,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // ✅ Your PayFast merchant details
-<<<<<<< HEAD
-const merchant_id = "19412722";
-const merchant_key = "46ihf2jvbdhpw";
-=======
+
 const merchant_id = "10042700";
 const merchant_key = "l8vjs8ugxtou0";
->>>>>>> 843bcee9278d20cd310ee7d83f28ff9d687d1a70
+
 const passphrase = ""; // optional (only if you set one in your PayFast account)
 
 // ✅ Utility function to generate the PayFast signature
@@ -42,13 +39,10 @@ app.post("/create-payment", (req, res) => {
   const { amount, item_name, name_first, name_last, email_address, m_payment_id } = req.body;
 
   const paymentData = {
-<<<<<<< HEAD
-    merchant_id:"19412722" ,
-    merchant_key:"46ihfsjvbdhpw" ,
-=======
+
     merchant_id:"10042700" ,
     merchant_key:"l8vjs8ugxtou0" ,
->>>>>>> 843bcee9278d20cd310ee7d83f28ff9d687d1a70
+
     return_url: "https://yourdomain.com/success",
     cancel_url: "https://yourdomain.com/cancel",
     notify_url: "https://legends-fmzi.onrender.com/notify",
