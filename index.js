@@ -11,8 +11,8 @@ app.post("/create-payment", (req, res) => {
   const { amount, itemName, email } = req.body;
 
   const pfData = {
-    merchant_id: "10000100", // PayFast Sandbox ID
-    merchant_key: "46f0cd694581a", // PayFast Sandbox Key
+    merchant_id: "10042700", // PayFast Sandbox ID
+    merchant_key: "l8vjs8ugxtou0", // PayFast Sandbox Key
     return_url: "https://your-app.com/success",
     cancel_url: "https://your-app.com/cancel",
     notify_url: "https://legends-fmzi.onrender.com/notify", // Change after deploy
