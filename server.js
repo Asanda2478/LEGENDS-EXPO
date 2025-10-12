@@ -7,8 +7,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // ✅ Your PayFast merchant details
-const merchant_id = "10000100";
-const merchant_key = "46f0cd694581a";
+const merchant_id = "10042700";
+const merchant_key = "l8vjs8ugxtou0";
 const passphrase = ""; // optional (only if you set one in your PayFast account)
 
 // ✅ Utility function to generate the PayFast signature
